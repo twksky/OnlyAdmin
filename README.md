@@ -6,6 +6,18 @@ A Admin framework let you time free!
 - Django
 - AdminLTE
 
+## How to Start
+
+```
+virtualenv .env -p python3
+source .env/bin/activate
+pip install -r requirements.txt
+
+cd OnlyAdmin
+./manage.py runserver
+```
+
+
 ## TODO
 
 1. [x] Pagination List
